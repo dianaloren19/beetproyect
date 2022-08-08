@@ -1,0 +1,85 @@
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display:grid;
+  background-color: white
+
+}
+
+.Horizontal{
+  background-color: #333;
+  padding: 15px;
+  overflow: hidden;
+    
+}
+
+.linke {
+  display: inline;
+  color: white;
+  padding: 14px 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;  
+}
+
+.linke:hover {
+  background-color: rgb(72, 78, 76);
+}
+.active{
+  background-color: #111;
+}
+.fila{
+  column-count:2;
+
+
+}
+.grip-container{
+  padding: 10px; 
+  min-width: 200%;
+  
+}
+
+.card{
+  display:flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: rgb(230, 245, 238);
+  
+  
+}
+.col-4{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+.col-8{
+  max-width: 50%;
+  overflow: hidden;
+ 
+}
+.textcenter{  
+ margin:0px 5px;
+  text-align: left;
+  font-family: arial;
+  text-align:justify;
+}
+.link{
+  margin-bottom: 20px;
+}
+
+
+
+.col-4 img {
+  width: 30%;
+}
+
+
+
+
+
